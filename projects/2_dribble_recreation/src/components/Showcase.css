@@ -1,0 +1,65 @@
+.Showcase {
+    width: 65%;
+    min-width: 65%;
+    height: 100%;
+
+    display: block;
+    position: relative;
+    top: 0;
+    left: 0;
+
+    background-color: var(--secondary-color);
+    border-radius: 0 var(--corner-radius) var(--corner-radius) 0;
+    
+    color: var(--white-color);
+    text-align: center;
+
+    overflow: hidden;
+}
+
+.Showcase-brandname {
+    margin-top: 0px;
+    position: absolute;
+    left: var(--corner-radius);
+    top: var(--corner-radius);
+    font-weight: bold;
+    font-size: 1.2em
+}
+
+.Showcase-progress {
+    color: var(--white-color);
+
+    position: absolute;
+    left: var(--corner-radius);
+    bottom: var(--corner-radius);
+    padding-left: 3em;
+
+    display: flex;
+    align-items: center;
+}
+
+.Showcase-segment {
+    color: var(--white-color);
+    background-color: var(--white-color);
+
+    width: 3em;
+    height: 0.2em;
+
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+
+    transition: all .2s ease-in-out;
+}
+
+.Showcase-segment-hitbox {
+    width: 3em;
+    height: 3em;
+    
+    display: inline-block;
+    margin-left: 0.5em;
+}
+
+.Showcase-segment-hitbox:last-of-type {
+    margin-right: 0.5em;
+}

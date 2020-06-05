@@ -1,0 +1,32 @@
+:root {
+    --primary-color: #fb6e3b;
+    --secondary-color: #0f073c;
+    --light-secondary-color: #c6c6d2;
+    --off-white-color: #fafafb;
+    --white-color: #ffffff;
+
+    --demo-background-color: #f2eaea;
+
+    --corner-radius: 50px;
+}
+
+.App {
+    background-color: var(--demo-background-color);
+    height: 100vh;
+}
+
+.shadow {
+    box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.1);
+}
+
+.inset-shadow {
+    box-shadow: inset 0px 0px 10px 1px rgba(0,0,0,0.05);
+}
+
+.hover-grow {
+    transition: all .2s ease-in-out;
+}
+
+.hover-grow:hover {
+    transform: scale(1.05);
+}

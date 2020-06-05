@@ -1,0 +1,41 @@
+.Navbar {
+    color: var(--secondary-color);
+    font-weight: bold;
+    height: 3.5em;
+
+    padding-left: var(--corner-radius);
+    padding-right: var(--corner-radius);
+    margin-top: calc(var(--corner-radius) * 0.7);
+
+    display: flex;
+    align-items: center;
+}
+
+.Navbar a {
+    /* float: right; */
+    margin: 1em;
+    font-size: 0.8em;
+    text-decoration: none;
+    color: var(--secondary-color);
+}
+
+.Navbar a:active {
+    color: var(--primary-color);
+}
+
+.Navbar-profile {
+    width: 2.5em;
+    height: 2.5em;
+    object-fit:cover;
+    margin-left: 1em;
+    border-radius: 1em;
+}
+
+.Navbar-icon {
+    vertical-align: middle;
+    transform: scale(1.5);
+}
+
+.Navbar-expander {
+    flex-grow: 1;
+}

@@ -1,0 +1,18 @@
+.HorizontalScroller {
+    display: flex;
+    flex-direction: row;
+    overflow-x: visible;
+    /* overflow-y: hidden; */
+}
+/* 
+.HorizontalScroller::-webkit-scrollbar {
+  display: none;
+} */
+
+.HorizontalScroller::-webkit-scrollbar {
+    display: none;
+}
+
+.HorizontalScroller > * {
+    margin-right: 20px;
+}
