@@ -1,18 +1,18 @@
-.RatingCircle {
-    width: 2em;
-    height: 2em;
-    border-radius: 100%;
-    background-color: rgba(255, 255, 255, 0.3);
-    border: rgba(255, 255, 255, 0.9) solid 1px;
-
-    text-align: center;
-    color: white;
-}
-
 .RatingCircle-rating {
-    position: absolute;
-    font-size: 0.7em;
+    /* position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); */
+    font-size: 0.7em;
+    fill: white;
+    text-align: center;
+    font-family: var(--font);
+}
+
+.RatingCircle-circle { 
+    /* transform: rotate(-90deg); */
+    fill: rgba(255, 255, 255, 0.3);
+    stroke:  rgba(255, 255, 255, 0.9);
+
+    transform: rotate(-90deg);
 }

@@ -8,6 +8,12 @@
     --demo-background-color: #f2eaea;
 
     --corner-radius: 50px;
+    --font: 'Poppins', sans-serif;
+}
+
+
+* {
+    font-family: var(--font);
 }
 
 .App {
@@ -29,4 +35,21 @@
 
 .hover-grow:hover {
     transform: scale(1.05);
+}
+
+.App-credits {
+    font-size: 0.8em;
+    margin: 1em;
+
+    position: absolute;
+    left: 0;
+    bottom: 0;
+
+    color: var(--secondary-color);
+}
+
+.App-credits > a {
+    color: var(--primary-color);
+    font-weight: bold;
+    text-decoration: none;
 }

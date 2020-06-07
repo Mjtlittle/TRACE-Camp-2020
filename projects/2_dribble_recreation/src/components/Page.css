@@ -35,7 +35,6 @@
 }
 
 .Page-lower-section .HorizontalScroller {
-    /* position: relative; */
 
     /* add extra area to show the drop shadow */
     top: -2em;
@@ -44,7 +43,7 @@
     margin-bottom: -4em;
 }
 
-.Page-lower-section .HorizontalScroller {
+.Page-lower-section > .HorizontalScroller {
     /* position: relative; */
 
     /* add extra area to show the drop shadow */
@@ -53,7 +52,7 @@
     padding-bottom: 2em;
     margin-bottom: -4em;
 }
-.Page-lower-section .HorizontalScroller > * {
+.Page-lower-section > .HorizontalScroller > * {
     margin-right: 1em;
 }
 
@@ -71,3 +70,8 @@
 .Page-whitespace {
     min-width: calc(var(--corner-radius) - 1em);
 }
+
+.Page-lower-section > .SectionCollection {
+    padding-bottom: 1em;
+    margin-top: -2em;
+} 

@@ -1,6 +1,7 @@
 .LocationCard {
     width: 11.2em;
     min-width: 11.2em;
+    max-width: 11.2em;
     
     height: 16em;
     border-radius: 2em;
