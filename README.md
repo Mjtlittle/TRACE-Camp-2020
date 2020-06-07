@@ -2,7 +2,7 @@
 A repository of all projects made for Clemson TRACE Camp 2020
 
 ## Projects
-1. Group Introduction Project (with [Shawn Picardy](https://shawnpicardy.com/))
+1. Group Introduction Project (with [Shawn Picardy](https://shawnpicardy.com/)): [Live Link](http://team4-liveshare.surge.sh/)
     - Went over html basics and looked into css style attributes
 2. Dribble Recreation: [Live Link](https://jlittle-project-2.surge.sh/)
     - Reference: [Purrweb UI on Dribble](https://dribbble.com/shots/11580352-Travel-App-Design-Concept)
