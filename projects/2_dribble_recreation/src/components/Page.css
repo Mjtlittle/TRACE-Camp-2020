@@ -30,12 +30,44 @@
 }
 
 .Page-lower-section {
-    padding-left: var(--corner-radius);
     padding-top: 2em;
     padding-bottom: 2em;
+}
+
+.Page-lower-section .HorizontalScroller {
+    /* position: relative; */
+
+    /* add extra area to show the drop shadow */
+    top: -2em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    margin-bottom: -4em;
+}
+
+.Page-lower-section .HorizontalScroller {
+    /* position: relative; */
+
+    /* add extra area to show the drop shadow */
+    top: -2em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    margin-bottom: -4em;
+}
+.Page-lower-section .HorizontalScroller > * {
+    margin-right: 1em;
+}
+
+.Page-lower-section > * {
+    padding-left: var(--corner-radius);
 }
 
 .Page-lower-section h2 {
     font-size: 2em;
     color: var(--secondary-color);
+}
+
+/* ! couldnt figure out how to get padding on other end of the flexbox with
+   ! overflow, so to fix it i added a chunk of white space to the end */
+.Page-whitespace {
+    min-width: calc(var(--corner-radius) - 1em);
 }

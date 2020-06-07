@@ -7,6 +7,10 @@
     background-color: var(--white-color);
 
     position: relative;
+
+    text-align: center;
+
+    user-select: none;
 }
 
 .CategoryPill-active {
@@ -26,12 +30,25 @@
     text-align: center;
 }
 
-.CategoryPill-icon p {
+.CategoryPill-icon > p {
     display: inline-block;
     vertical-align: middle;
     font-size: 1.5em;
     margin: 0;
     margin-top: 0.5em;
+}
+
+.CategoryPill > p {
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 2em;
+    font-size: 0.9em;
+    width: 100%;
+    color: var(--secondary-color);
+}
+
+.CategoryPill-active > p {
+    color: var(--white-color);
 }
 
 

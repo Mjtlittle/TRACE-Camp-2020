@@ -29,6 +29,9 @@
     object-fit:cover;
     margin-left: 1em;
     border-radius: 1em;
+    
+    background-color: var(--secondary-color);
+    color: var(--white-color);
 }
 
 .Navbar-icon {

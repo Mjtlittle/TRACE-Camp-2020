@@ -40,14 +40,17 @@ const Page = () => {
                         <LocationCard name='Alaska' mustSeePlaces={52} rating={4.8} src='https://unsplash.com/photos/0x-TlW_QsYk/download?force=true&w=640'/>
                         <LocationCard name='Iceland' mustSeePlaces={28} rating={5.0} src='https://unsplash.com/photos/zNN6ubHmruI/download?force=true&w=640'/>
                         <LocationCard name='Colorado' mustSeePlaces={10} rating={4.7} src='https://unsplash.com/photos/xoYPV4oVQJI/download?force=true&w=640'/>
+                        <div className='Page-whitespace' />
                     </HorizontalScroller>
+
                     <h2>Types of Travel</h2>
                     <HorizontalScroller>
-                        <CategoryPill icon='🛫' name='All' active/>
-                        <CategoryPill icon='👨' name='Solo'/>
-                        <CategoryPill icon='⭐' name='Luxury'/>
-                        <CategoryPill icon='🦁' name='Safari'/>
-                        <CategoryPill icon='🍣' name='Food'/>
+                        <CategoryPill icon='🛫' label='All' active/>
+                        <CategoryPill icon='👨' label='Solo'/>
+                        <CategoryPill icon='⭐' label='Luxury'/>
+                        <CategoryPill icon='🦁' label='Safari'/>
+                        <CategoryPill icon='🍣' label='Food'/>
+                        <div className='Page-whitespace' />
                     </HorizontalScroller>
                 </div>
             </div>

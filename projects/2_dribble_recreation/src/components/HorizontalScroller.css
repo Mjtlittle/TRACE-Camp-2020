@@ -1,18 +1,26 @@
 .HorizontalScroller {
     display: flex;
     flex-direction: row;
-    overflow-x: visible;
-    /* overflow-y: hidden; */
-}
-/* 
-.HorizontalScroller::-webkit-scrollbar {
-  display: none;
-} */
+    flex-wrap: nowrap;
+    align-content: flex-start;
 
-.HorizontalScroller::-webkit-scrollbar {
-    display: none;
+    overflow-x: auto;
+    overflow-y: hidden;
+
+    position: relative;
+
+    scroll-behavior: auto;
 }
 
 .HorizontalScroller > * {
-    margin-right: 20px;
+    flex: 1;
+    flex-grow: 1;
+}
+
+.HorizontalScroller > *:last-child {
+    margin-right: 0;
+}
+
+.HorizontalScroller::-webkit-scrollbar {
+  display: none;
 }

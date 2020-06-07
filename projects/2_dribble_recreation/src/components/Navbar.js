@@ -13,7 +13,7 @@ const Navbar = (props) => {
             </IconContext.Provider>
             <div className='Navbar-expander'/>
             {props.children}
-            <img className='Navbar-profile' src={props.profileSrc} alt='profile'/>
+            <img className='Navbar-profile hover-grow' src={props.profileSrc} alt='profile'/>
         </div>
     );
 }
