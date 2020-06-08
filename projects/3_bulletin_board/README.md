@@ -1,6 +1,6 @@
 
 # [Live Link](https://group4-bulletin-board.surge.sh)
-
+# Made with [Aaron Woolfolk](https://github.com/LeopoldJr), [Devin Narula](https://github.com/devinnarula), and [Rohit Mallick](https://github.com/RoMallick)
 # Create React App Setup
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
