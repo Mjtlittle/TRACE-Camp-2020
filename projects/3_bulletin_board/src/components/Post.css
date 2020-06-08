@@ -1,0 +1,7 @@
+.Post {
+    width: 18rem;
+    /* display: inline-block; */
+    background-color: #fdfd96 !important;
+    box-shadow: 0px 5px 10px -5px rgba(0,0,0,0.43);
+    margin: 0.2em;
+}
