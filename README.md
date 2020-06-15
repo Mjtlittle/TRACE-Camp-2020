@@ -13,3 +13,8 @@ A repository of all projects made for Clemson TRACE Camp 2020
     - Made with [Aaron Woolfolk](https://github.com/LeopoldJr), [Devin Narula](https://github.com/devinnarula), and [Rohit Mallick](https://github.com/RoMallick)
     - Bulletin board with useful links
     - Uses React-Bootstrap
+4. Meme Generator: [Live Link](https://jlittle-project-4.surge.sh/)
+    - Add, remove, and store Memes with captions
+    - Uses React-Bootstrap for ui
+    - Uses Element2Canvas for downloading images
+    - Uses Axios to follow unsplash random image url for random images

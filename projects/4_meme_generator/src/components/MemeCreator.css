@@ -1,0 +1,37 @@
+.MemeCreator-content {
+    position: relative;
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.MemeCreator-buttonlist {
+    display: flex;
+    flex-direction: row;
+}
+
+.MemeCreator-buttonlist > button {
+    margin-right: 0.5em;
+}
+.MemeCreator-buttonlist > button:last-of-type {
+    margin-right: 0;
+}
+
+.MemeCreator-form {
+    white-space: pre-wrap;
+}
+
+.MemeCreator-preview {
+    width: 20em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.MemeCreator-preview > .Meme {
+    min-width: 200px;
+    width: 20rem;
+    border: solid black 2px;
+}
